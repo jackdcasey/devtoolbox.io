@@ -1,22 +1,27 @@
 <template>
   <div id="app">
-    <router-view/>
+    <Sidebar id="sidebar"/>
+    <router-view id="viewer"/>
   </div>
 </template>
 
 <script>
+import Sidebar from './components/layout/Sidebar'
+
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Sidebar
+  }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  #viewer {
+    background-color: lightcoral;
+    margin-left: 300px
+  }
+  html, body, #app, #viewer{
+    height: 100%;
+  }
 </style>

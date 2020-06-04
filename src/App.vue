@@ -1,7 +1,15 @@
 <template>
   <div id="app">
-    <Sidebar id="sidebar"/>
-    <router-view id="viewer"/>
+    <b-container fluid class="height100">
+      <b-row class="height100">
+        <div id="sidebar">
+          <Sidebar/>
+        </div>
+        <b-col id="viewer">
+          <router-view/>
+        </b-col>
+      </b-row>
+    </b-container>
   </div>
 </template>
 
@@ -17,11 +25,20 @@ export default {
 </script>
 
 <style>
-  #viewer {
-    background-color: lightcoral;
-    margin-left: 300px
-  }
-  html, body, #app, #viewer{
-    height: 100%;
-  }
+
+#sidebar {
+  width: 300px;
+  background: lightcoral;
+  text-align: center;
+}
+
+#viewer {
+  background-color: lightblue;
+  text-align: center;
+}
+
+html, body, #app, .height100{
+  height: 100%;
+}
+
 </style>

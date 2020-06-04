@@ -29,12 +29,10 @@ export default {
 #sidebar {
   width: 300px;
   background: lightcoral;
-  text-align: center;
 }
 
 #viewer {
   background-color: lightblue;
-  text-align: center;
 }
 
 html, body, #app, .height100{

@@ -1,5 +1,5 @@
 <template>
-  <b-container>
+  <b-container class="flex-container">
   <b-row class="justify-content-md-center">
     <b-col md="auto">
         <h1>Tool 1</h1>
@@ -16,7 +16,17 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 
+h1, h2 {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
 
 </style>

@@ -35,6 +35,11 @@ export default {
   background-color: lightblue;
 }
 
+#app {
+  max-height: 100vh;
+  overflow: hidden;
+}
+
 html, body, #app, .height100{
   height: 100%;
 }

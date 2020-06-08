@@ -2,7 +2,7 @@
   <div id="app">
     <b-container fluid class="height100">
       <b-row class="height100">
-        <div id="sidebar">
+        <div id="sidebar" class="shadow-lg">
           <Sidebar/>
         </div>
         <b-col id="viewer">
@@ -27,12 +27,7 @@ export default {
 <style>
 
 #sidebar {
-  width: 300px;
-  background: lightcoral;
-}
-
-#viewer {
-  background-color: lightblue;
+  width: 280px;
 }
 
 #app {
@@ -41,7 +36,7 @@ export default {
 }
 
 html, body, #app, .height100{
-  height: 100%;
+  height: 100vh;
 }
 
 </style>

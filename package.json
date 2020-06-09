@@ -12,6 +12,7 @@
     "start": "npm run dev"
   },
   "dependencies": {
+    "@vue/cli-service": "^4.4.1",
     "bootstrap-vue": "^2.15.0",
     "vue": "^2.5.2",
     "vue-cli-plugin-s3-deploy": "^4.0.0-rc3",

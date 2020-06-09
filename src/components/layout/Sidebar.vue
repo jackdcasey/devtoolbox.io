@@ -7,65 +7,32 @@
             <b-card class="m-2" header="Time & Date">
                 <b-list-group>
                 <b-list-group-item to="/timenow">Time Now</b-list-group-item>
-                <b-list-group-item to="/placeholder">Placeholder</b-list-group-item>
+                <b-list-group-item to="/flipticks">ISO8601 to Ticks</b-list-group-item>
                 </b-list-group>
             </b-card>
             <b-card class="m-2" header="Windows">
                 <b-list-group>
                 <b-list-group-item to="/placeholder">Placeholder</b-list-group-item>
                 <b-list-group-item to="/placeholder">Placeholder</b-list-group-item>
+                <b-list-group-item to="/placeholder">Placeholder</b-list-group-item>
+                <b-list-group-item to="/placeholder">Placeholder</b-list-group-item>
                 </b-list-group>
             </b-card>
 
 
-            <b-card class="m-2" header="Group 2">
+            <b-card class="m-2" header="Linux">
                 <b-list-group>
                 <b-list-group-item to="/placeholder">Placeholder</b-list-group-item>
                 <b-list-group-item to="/placeholder">Placeholder</b-list-group-item>
                 </b-list-group>
             </b-card>
-                        <b-card class="m-2" header="Group 2">
+                        <b-card class="m-2" header="Networking">
                 <b-list-group>
                 <b-list-group-item to="/placeholder">Placeholder</b-list-group-item>
                 <b-list-group-item to="/placeholder">Placeholder</b-list-group-item>
                 </b-list-group>
             </b-card>
-                        <b-card class="m-2" header="Group 2">
-                <b-list-group>
-                <b-list-group-item to="/placeholder">Placeholder</b-list-group-item>
-                <b-list-group-item to="/placeholder">Placeholder</b-list-group-item>
-                </b-list-group>
-            </b-card>
-                        <b-card class="m-2" header="Group 2">
-                <b-list-group>
-                <b-list-group-item to="/placeholder">Placeholder</b-list-group-item>
-                <b-list-group-item to="/placeholder">Placeholder</b-list-group-item>
-                </b-list-group>
-            </b-card>
-                        <b-card class="m-2" header="Group 2">
-                <b-list-group>
-                <b-list-group-item to="/placeholder">Placeholder</b-list-group-item>
-                <b-list-group-item to="/placeholder">Placeholder</b-list-group-item>
-                </b-list-group>
-            </b-card>
-                        <b-card class="m-2" header="Group 2">
-                <b-list-group>
-                <b-list-group-item to="/placeholder">Placeholder</b-list-group-item>
-                <b-list-group-item to="/placeholder">Placeholder</b-list-group-item>
-                </b-list-group>
-            </b-card>
-                        <b-card class="m-2" header="Group 2">
-                <b-list-group>
-                <b-list-group-item to="/placeholder">Placeholder</b-list-group-item>
-                <b-list-group-item to="/placeholder">Placeholder</b-list-group-item>
-                </b-list-group>
-            </b-card>
-                        <b-card class="m-2" header="Group 2">
-                <b-list-group>
-                <b-list-group-item to="/placeholder">Placeholder</b-list-group-item>
-                <b-list-group-item to="/placeholder">Placeholder</b-list-group-item>
-                </b-list-group>
-            </b-card>
+
 
         </div>
         <div id="buttondiv">

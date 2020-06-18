@@ -62,7 +62,8 @@ h1 {
 }
 
 #links {
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
 
     max-height: 85vh;
     box-sizing:border-box;

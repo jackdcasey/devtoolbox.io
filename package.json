@@ -16,7 +16,8 @@
     "bootstrap-vue": "^2.15.0",
     "vue": "^2.5.2",
     "vue-cli-plugin-s3-deploy": "^4.0.0-rc3",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "webpack-cli": "^3.3.11"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -62,7 +63,7 @@
     "vue-template-compiler": "^2.5.2",
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^3.3.2",
-    "webpack-dev-server": "^3.1.11",
+    "webpack-dev-server": "^2.9.7",
     "webpack-merge": "^4.1.0"
   },
   "browserslist": [

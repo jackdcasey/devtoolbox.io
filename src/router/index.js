@@ -23,6 +23,6 @@ export default new Router({
       path: '/placeholder',
       name: 'Placeholder',
       component: Placeholder
-    },
+    }
   ]
 })

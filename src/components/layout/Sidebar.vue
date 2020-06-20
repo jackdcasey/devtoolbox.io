@@ -19,7 +19,6 @@
                 </b-list-group>
             </b-card>
 
-
             <b-card class="m-2" header="Linux">
                 <b-list-group>
                 <b-list-group-item to="/placeholder">Placeholder</b-list-group-item>
@@ -33,7 +32,6 @@
                 </b-list-group>
             </b-card>
 
-
         </div>
         <div id="buttondiv">
             <a class="github-button" href="https://github.com/jackdcasey/devtoolbox.io" data-size="large" aria-label="Star jackdcasey/devtoolbox.io on GitHub">Contributors & Suggestions Welcome!</a>
@@ -43,12 +41,12 @@
 
 <script>
 export default {
-    name: 'Sidebar',
-    mounted() {
-      let githubButtonScript = document.createElement('script')
-      githubButtonScript.setAttribute('src', 'https://buttons.github.io/buttons.js')
-      document.head.appendChild(githubButtonScript)
-    },
+  name: 'Sidebar',
+  mounted () {
+    let githubButtonScript = document.createElement('script')
+    githubButtonScript.setAttribute('src', 'https://buttons.github.io/buttons.js')
+    document.head.appendChild(githubButtonScript)
+  }
 }
 </script>
 

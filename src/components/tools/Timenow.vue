@@ -31,30 +31,30 @@ import OneLineWithCopy from '../utility/OneLineWithCopy'
 export default {
   name: 'Timenow',
   components: {
-      OneLineWithCopy
+    OneLineWithCopy
   },
   data: function () {
     return {
-        isotime: "",
-        tickstime: "",
-        unixtime: "",
-        timer: '',
-        }
-    },
-    created () {
-        this.timer = setInterval(this.updatetime, 20)
-    },
-    methods: {
-        updatetime() {
-            var currentTime = new Date();
-            this.isotime = currentTime.toISOString();
-            this.tickstime = (currentTime.getTime() * 10000) + 621355968000000000 + Math.floor(Math.random() * 10000);
-            this.unixtime = Math.floor(new Date().getTime() / 1000);
-        }
-    },
-    beforeDestroy () {
-        clearInterval(this.timer)
+      isotime: '',
+      tickstime: '',
+      unixtime: '',
+      timer: ''
     }
+  },
+  created () {
+    this.timer = setInterval(this.updatetime, 20)
+  },
+  methods: {
+    updatetime () {
+      var currentTime = new Date()
+      this.isotime = currentTime.toISOString()
+      this.tickstime = (currentTime.getTime() * 10000) + 621355968000000000 + Math.floor(Math.random() * 10000)
+      this.unixtime = Math.floor(new Date().getTime() / 1000)
+    }
+  },
+  beforeDestroy () {
+    clearInterval(this.timer)
+  }
 }
 </script>
 

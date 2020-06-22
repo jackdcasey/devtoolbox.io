@@ -23,7 +23,7 @@ export default new Router({
     {
       path: '/flipticks',
       name: 'FlipTicks',
-      component: Flipticks,
+      component: Flipticks
     },
     {
       path: '/placeholder',

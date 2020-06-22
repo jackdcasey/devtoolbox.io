@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import Home from '@/components/Home'
 import Timenow from '@/components/tools/Timenow'
 import Placeholder from '@/components/tools/Placeholder'
+import Flipticks from '@/components/tools/Flipticks'
 
 Vue.use(Router)
 
@@ -18,6 +19,11 @@ export default new Router({
       path: '/timenow',
       name: 'TimeNow',
       component: Timenow
+    },
+    {
+      path: '/flipticks',
+      name: 'FlipTicks',
+      component: Flipticks,
     },
     {
       path: '/placeholder',

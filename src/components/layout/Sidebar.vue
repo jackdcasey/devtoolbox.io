@@ -7,7 +7,7 @@
             <b-card class="m-2" header="Time & Date">
                 <b-list-group>
                 <b-list-group-item to="/timenow">Time Now</b-list-group-item>
-                <b-list-group-item to="/flipticks">ISO8601 to Ticks</b-list-group-item>
+                <b-list-group-item to="/flipticks">Flip Ticks</b-list-group-item>
                 </b-list-group>
             </b-card>
             <b-card class="m-2" header="Windows">
@@ -25,7 +25,7 @@
                 <b-list-group-item to="/placeholder">Placeholder</b-list-group-item>
                 </b-list-group>
             </b-card>
-                        <b-card class="m-2" header="Networking">
+            <b-card class="m-2" header="Networking">
                 <b-list-group>
                 <b-list-group-item to="/placeholder">Placeholder</b-list-group-item>
                 <b-list-group-item to="/placeholder">Placeholder</b-list-group-item>

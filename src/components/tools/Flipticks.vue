@@ -29,7 +29,7 @@ export default {
   },
   data: function () {
     return {
-        placeholder: 'placeholder'
+      placeholder: 'placeholder'
     }
   },
   created () {

@@ -11,7 +11,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v2
     - name: Deploy
-      uses: jackdcasey/vue-cli-plugin-s3-deploy-action@master
+      uses: jackdcasey/vue-cli-plugin-s3-deploy-action@v0.1
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}

@@ -1,22 +1,23 @@
 <template>
     <div>
-        <b-input-group>
-            <b-form-input readonly type="text" v-model="text" class="output"></b-form-input>
-            <b-input-group-append>
-            <b-button :variant=buttonvariant @click="convert"> {{buttontext}} </b-button>
-            <b-button :variant=buttonvariant @click="copy"> {{buttontext}} </b-button>
-            </b-input-group-append>
-        </b-input-group>
-    </div>
+      <OneLineWithCopy class="m-2" :text=secondline />
+      <OneLineWithCopy class="m-2" :text=secondline />
+  </div>
 </template>
 
 <script>
+import OneLineWithCopy from './OneLineWithCopy'
+
 export default {
-  name: 'OneLineWithCopyAndTransform',
+  name: 'TwoLinesWithTransform',
   props: ['text'],
+  components: {
+    OneLineWithCopy
+  },
   data: function () {
     return {
       buttontext: '',
+      buttonfunctext: '',
       buttonvariant: ''
     }
   },
@@ -33,6 +34,7 @@ export default {
     },
     initButton () {
       this.buttontext = 'Copy!'
+      this.buttonfunctext = 'Convert!'
       this.buttonvariant = 'outline-primary'
     },
     copyStringToClipboard (str) {

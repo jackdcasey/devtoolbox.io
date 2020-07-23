@@ -9,7 +9,7 @@
 
         <div id="tooloutput" class="m-2">
             <b-card class="m-2" title="ISO8601">
-                <OneLineWithCopyAndTransform :text=placeholder />
+                <TwoLinesWithTransform :text=placeholder />
             </b-card>
         </div>
     </b-col>
@@ -20,12 +20,12 @@
 
 <script>
 
-import OneLineWithCopyAndTransform from '../utility/OneLineWithCopyAndTransform'
+import TwoLinesWithTransform from '../utility/TwoLinesWithTransform'
 
 export default {
   name: 'Timenow',
   components: {
-    OneLineWithCopyAndTransform
+    TwoLinesWithTransform
   },
   data: function () {
     return {
